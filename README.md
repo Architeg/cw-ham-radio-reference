@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/banner.svg" alt="CW: A Practical Reference — Codes, phrases, and operating procedures." width="840">
+  <img src="assets/banner.png" alt="CW: A Practical Reference — Codes, phrases, and operating procedures." width="840">
 </p>
 
 I’m new to amateur radio and Morse code. I found myself jumping between websites and guides just to check a code, a phrase, or what to send next. So I gathered the references I kept needing into one place, for myself and anyone else who finds them useful.
