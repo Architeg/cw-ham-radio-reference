@@ -11,9 +11,11 @@
       src="https://img.shields.io/github/downloads/Architeg/cw-ham-radio-reference/total?label=Downloads&style=flat"
     />
   </a>
+<a href="https://github.com/Architeg/cw-ham-radio-reference/releases/latest">
+  <img alt="Latest version" src="https://img.shields.io/github/v/release/Architeg/cw-ham-radio-reference?label=version&color=111827"/>
+</a>
   <a href="LICENSE.md"><img alt="License: CC BY 4.0" src="https://img.shields.io/badge/License-CC_BY_4.0-101e2d"></a>
   <a href="https://github.com/Architeg/cw-ham-radio-reference"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Architeg/cw-ham-radio-reference?label=Stars&amp;style=flat"></a>
-  <a href="#support"><img alt="Support the project" src="https://img.shields.io/badge/Support-optional-101e2d"></a>
 </p>
 
 <p align="center">
