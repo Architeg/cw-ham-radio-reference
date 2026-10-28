@@ -6,7 +6,7 @@
 <p align="center">
   <a href="https://github.com/Architeg/cw-ham-radio-community-guide/releases/latest"><img alt="Download PDF" src="https://img.shields.io/badge/Download-PDF-e8b764?labelColor=101e2d&amp;color=e8b764"></a>
   <a href="LICENSE.md"><img alt="License: CC BY 4.0" src="https://img.shields.io/badge/License-CC_BY_4.0-101e2d"></a>
-  <a href="https://github.com/Architeg/cw-ham-radio-community-guide/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Architeg/cw-ham-radio-community-guide?label=Stars&amp;style=flat"></a>
+  <a href="https://github.com/Architeg/cw-ham-radio-community-guide"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Architeg/cw-ham-radio-community-guide?label=Stars&amp;style=flat"></a>
   <a href="#support"><img alt="Support the project" src="https://img.shields.io/badge/Support-optional-101e2d"></a>
 </p>
 
@@ -41,7 +41,7 @@ Questions from other newcomers are welcome too. Please mention the edition and p
 
 ## Support
 
-If this reference helps you, share it with another radio amateur, [give the repository a star](https://github.com/Architeg/cw-ham-radio-community-guide/stargazers), or support the project through [GitHub Sponsors](https://github.com/sponsors/Architeg) or [Ko-fi](https://ko-fi.com/architeg). Donations are optional; the reference is freely available.
+If this reference helps you, share it with another radio amateur, [give the repository a star](https://github.com/Architeg/cw-ham-radio-community-guide), or support the project through [GitHub Sponsors](https://github.com/sponsors/Architeg) or [Ko-fi](https://ko-fi.com/architeg). Donations are optional; the reference is freely available.
 
 ## License
 
