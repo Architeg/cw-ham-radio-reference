@@ -5,6 +5,12 @@
 
 <p align="center">
   <a href="https://github.com/Architeg/cw-ham-radio-reference/releases/latest"><img alt="Download PDF" src="https://img.shields.io/badge/Download-PDF-e8b764?labelColor=101e2d&amp;color=e8b764"></a>
+  <a href="https://github.com/Architeg/cw-ham-radio-reference/releases">
+    <img
+      alt="GitHub release downloads"
+      src="https://img.shields.io/github/downloads/Architeg/cw-ham-radio-reference/total?label=Downloads&style=flat"
+    />
+  </a>
   <a href="LICENSE.md"><img alt="License: CC BY 4.0" src="https://img.shields.io/badge/License-CC_BY_4.0-101e2d"></a>
   <a href="https://github.com/Architeg/cw-ham-radio-reference"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Architeg/cw-ham-radio-reference?label=Stars&amp;style=flat"></a>
   <a href="#support"><img alt="Support the project" src="https://img.shields.io/badge/Support-optional-101e2d"></a>
@@ -39,9 +45,13 @@ Found a mistake, an unclear explanation, or a useful example to add? [Open an is
 
 Questions from other newcomers are welcome too. Please mention the edition and page so we can find the passage. [Contribution notes](CONTRIBUTING.md) explain how to suggest an edit or rebuild the PDF.
 
-## Support
+<a id="support"></a>
+## ⭐ Support CW: A Practical Reference
 
-If this reference helps you, share it with another radio amateur, [give the repository a star](https://github.com/Architeg/cw-ham-radio-reference), or support the project through [GitHub Sponsors](https://github.com/sponsors/Architeg) or [Ko-fi](https://ko-fi.com/architeg). Donations are optional; the reference is freely available.
+If this reference helps you look up CW codes, phrases, and operating procedures, you can [share it](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2FArchiteg%2Fcw-ham-radio-reference&text=CW%3A%20A%20Practical%20Reference%20%E2%80%94%20Codes%2C%20phrases%2C%20and%20operating%20procedures.), [give it a star](https://github.com/Architeg/cw-ham-radio-reference/stargazers), or support the project:
+
+[![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-support-ea4aaa?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/Architeg)  
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-support-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/architeg)
 
 ## License
 
