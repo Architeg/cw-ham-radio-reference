@@ -1,0 +1,4 @@
+reportlab==4.4.9
+lxml==6.1.1
+pypdf==6.10.0
+pyphen==0.18.1

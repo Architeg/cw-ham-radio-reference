@@ -1,0 +1,1480 @@
+{
+  "alphabet": {
+    "A": ".-",
+    "B": "-...",
+    "C": "-.-.",
+    "D": "-..",
+    "E": ".",
+    "F": "..-.",
+    "G": "--.",
+    "H": "....",
+    "I": "..",
+    "J": ".---",
+    "K": "-.-",
+    "L": ".-..",
+    "M": "--",
+    "N": "-.",
+    "O": "---",
+    "P": ".--.",
+    "Q": "--.-",
+    "R": ".-.",
+    "S": "...",
+    "T": "-",
+    "U": "..-",
+    "V": "...-",
+    "W": ".--",
+    "X": "-..-",
+    "Y": "-.--",
+    "Z": "--..",
+    "0": "-----",
+    "1": ".----",
+    "2": "..---",
+    "3": "...--",
+    "4": "....-",
+    "5": ".....",
+    "6": "-....",
+    "7": "--...",
+    "8": "---..",
+    "9": "----."
+  },
+  "abbreviations": [
+    [
+      "AA",
+      "All after",
+      "PSE AGN AA NAME"
+    ],
+    [
+      "AB",
+      "All before",
+      "PSE AGN AB QTH"
+    ],
+    [
+      "ABT",
+      "About; approximately",
+      "ABT 10 W"
+    ],
+    [
+      "ADR / ADDR",
+      "Address",
+      "ADR VIA CALLBOOK"
+    ],
+    [
+      "AF",
+      "Audio frequency",
+      "AF GAIN"
+    ],
+    [
+      "AGN",
+      "Again; repeat",
+      "NAME AGN PSE"
+    ],
+    [
+      "ANR",
+      "Another",
+      "ANR CONTACT"
+    ],
+    [
+      "ANS",
+      "Answer",
+      "TNX FER ANS"
+    ],
+    [
+      "ANT",
+      "Antenna",
+      "ANT DIPOLE"
+    ],
+    [
+      "AR",
+      "See joined [AR] in the procedure table",
+      "End of a message"
+    ],
+    [
+      "ARND",
+      "Around; approximately",
+      "ARND 1500 UTC"
+    ],
+    [
+      "AS",
+      "See joined [AS] in the procedure table",
+      "Wait"
+    ],
+    [
+      "B4",
+      "Before",
+      "WKD U B4"
+    ],
+    [
+      "BCI",
+      "Broadcast interference",
+      "HV BCI"
+    ],
+    [
+      "BCNU",
+      "Be seeing you",
+      "TNX BCNU"
+    ],
+    [
+      "BK",
+      "Break; a short handover, by context",
+      "BK HW? BK"
+    ],
+    [
+      "BT",
+      "See joined [BT] in the procedure table",
+      "Separate two thoughts"
+    ],
+    [
+      "BTR",
+      "Better",
+      "NW BTR CPY"
+    ],
+    [
+      "BTU",
+      "Back to you",
+      "BTU K"
+    ],
+    [
+      "BUG",
+      "Mechanical semiautomatic key",
+      "USING A BUG"
+    ],
+    [
+      "BURO",
+      "QSL bureau",
+      "QSL VIA BURO"
+    ],
+    [
+      "C",
+      "Yes; correct",
+      "C UR CALL OK"
+    ],
+    [
+      "CALL / CS",
+      "Call sign",
+      "UR CALL AGN"
+    ],
+    [
+      "CBA",
+      "Callbook address",
+      "QSL TO CBA"
+    ],
+    [
+      "CFM",
+      "Confirm; I confirm",
+      "CFM UR NAME"
+    ],
+    [
+      "CK",
+      "Check",
+      "PSE CK"
+    ],
+    [
+      "CL",
+      "Closing the station",
+      "QRT NW CL"
+    ],
+    [
+      "CLDY",
+      "Cloudy",
+      "WX CLDY"
+    ],
+    [
+      "CLG",
+      "Calling",
+      "STN CLG AGN PSE"
+    ],
+    [
+      "CONDX / CX",
+      "Conditions",
+      "CONDX POOR"
+    ],
+    [
+      "CPY / CPI",
+      "Copy; receive the message",
+      "HW CPY?"
+    ],
+    [
+      "CQ",
+      "A general call",
+      "CQ CQ DE YOURCALL K"
+    ],
+    [
+      "CU",
+      "See you",
+      "CU SN"
+    ],
+    [
+      "CUAGN",
+      "See you again",
+      "HPE CUAGN"
+    ],
+    [
+      "CUD",
+      "Could",
+      "CUD U QRS?"
+    ],
+    [
+      "CUL",
+      "See you later",
+      "73 CUL"
+    ],
+    [
+      "CUZ / COS",
+      "Because",
+      "QRT CUZ QRM"
+    ],
+    [
+      "CW",
+      "Continuous wave; usual shorthand for Morse radio operation",
+      "WORKING CW"
+    ],
+    [
+      "DE",
+      "From; this is",
+      "THEIRCALL DE YOURCALL"
+    ],
+    [
+      "DN",
+      "Down",
+      "DN 1, when a frequency offset is intended"
+    ],
+    [
+      "DR",
+      "Dear",
+      "GE DR SAM"
+    ],
+    [
+      "DX",
+      "Distant contact or station, according to context",
+      "CQ DX"
+    ],
+    [
+      "ES",
+      "And",
+      "73 ES GL"
+    ],
+    [
+      "FB",
+      "Fine; excellent",
+      "FB SIG"
+    ],
+    [
+      "FER",
+      "For",
+      "TNX FER QSO"
+    ],
+    [
+      "FM",
+      "From; also frequency modulation in a technical context",
+      "FM HOME"
+    ],
+    [
+      "FREQ",
+      "Frequency",
+      "FREQ AGN PSE"
+    ],
+    [
+      "FWD",
+      "Forward",
+      "FWD MSG"
+    ],
+    [
+      "GA",
+      "Good afternoon; go ahead in another context",
+      "GA ALEX"
+    ],
+    [
+      "GD / GUD",
+      "Good",
+      "GUD SIG"
+    ],
+    [
+      "GE",
+      "Good evening",
+      "GE SAM"
+    ],
+    [
+      "GL",
+      "Good luck",
+      "73 ES GL"
+    ],
+    [
+      "GLD",
+      "Glad",
+      "GLD TO MEET U"
+    ],
+    [
+      "GM",
+      "Good morning",
+      "GM OM"
+    ],
+    [
+      "GN",
+      "Good night",
+      "GN ES 73"
+    ],
+    [
+      "GND",
+      "Ground",
+      "GND CONNECTION"
+    ],
+    [
+      "GP",
+      "Ground-plane antenna, in an antenna discussion",
+      "ANT GP"
+    ],
+    [
+      "HI / HI HI",
+      "Laughter; a light-hearted remark",
+      "RAIN AGN HI HI"
+    ],
+    [
+      "HNY",
+      "Happy New Year",
+      "HNY ES 73"
+    ],
+    [
+      "HPE",
+      "Hope",
+      "HPE CUAGN"
+    ],
+    [
+      "HR",
+      "Here; hear in some contexts",
+      "HR PWR 5 W"
+    ],
+    [
+      "HRD",
+      "Heard",
+      "HRD U B4"
+    ],
+    [
+      "HRS",
+      "Hours",
+      "TWO HRS"
+    ],
+    [
+      "HV",
+      "Have",
+      "HV QRM"
+    ],
+    [
+      "HW",
+      "How; how do you copy?",
+      "HW CPY?"
+    ],
+    [
+      "INFO",
+      "Information",
+      "TNX FER INFO"
+    ],
+    [
+      "K",
+      "Invitation to transmit",
+      "YOURCALL K"
+    ],
+    [
+      "KN",
+      "See [KN]; also heard as separate letters",
+      "The named station should answer"
+    ],
+    [
+      "LID",
+      "An unkind label for a poor operator",
+      "Recognize it; avoid using it as an insult"
+    ],
+    [
+      "LP",
+      "Long path, in propagation discussions",
+      "VIA LP"
+    ],
+    [
+      "LSN",
+      "Listen",
+      "LSN UP"
+    ],
+    [
+      "LTR",
+      "Later; letter in another context",
+      "CU LTR"
+    ],
+    [
+      "M / MTR",
+      "Meter, by context",
+      "ANT UP 8 M"
+    ],
+    [
+      "MIN",
+      "Minute",
+      "QRX 1 MIN"
+    ],
+    [
+      "MNI",
+      "Many",
+      "MNI TNX"
+    ],
+    [
+      "MSG",
+      "Message",
+      "MSG AGN PSE"
+    ],
+    [
+      "N",
+      "No; also a cut 9 in a numeric field",
+      "N, or 5NN in a report"
+    ],
+    [
+      "NCS",
+      "Net control station",
+      "NCS DE YOURCALL"
+    ],
+    [
+      "NIL",
+      "Nothing; no copy by context",
+      "SRI NIL CPY"
+    ],
+    [
+      "NR",
+      "Number; near in another context",
+      "NR 007"
+    ],
+    [
+      "NW",
+      "Now",
+      "QRT NW"
+    ],
+    [
+      "OK",
+      "All right; correct",
+      "ALL OK"
+    ],
+    [
+      "OM",
+      "Traditional friendly address to a male operator",
+      "TNX OM"
+    ],
+    [
+      "OP / OPR",
+      "Operator",
+      "OP ALEX"
+    ],
+    [
+      "OT",
+      "Old-timer; experienced operator",
+      "OP OT"
+    ],
+    [
+      "PA",
+      "Power amplifier",
+      "PA OFF"
+    ],
+    [
+      "PSE / PLS",
+      "Please",
+      "PSE QRS"
+    ],
+    [
+      "PWR",
+      "Power",
+      "PWR 10 W"
+    ],
+    [
+      "R",
+      "Received; other meanings depend on context",
+      "R TNX"
+    ],
+    [
+      "RCVR / RX",
+      "Receiver; receive",
+      "RX OK"
+    ],
+    [
+      "RFI",
+      "Radio-frequency interference",
+      "LOCAL RFI"
+    ],
+    [
+      "RIG",
+      "Radio equipment",
+      "RIG HOMEBREW"
+    ],
+    [
+      "RPRT",
+      "Report",
+      "TNX FER RPRT"
+    ],
+    [
+      "RPT",
+      "Repeat; report in another context",
+      "RPT NAME PSE"
+    ],
+    [
+      "RST",
+      "Readability, strength, tone report",
+      "UR RST 579"
+    ],
+    [
+      "RTTY",
+      "Radioteletype",
+      "ALSO WORK RTTY"
+    ],
+    [
+      "SASE",
+      "Self-addressed stamped envelope",
+      "Follow the QSL recipient’s instructions"
+    ],
+    [
+      "SIG / SIGS",
+      "Signal or signals; signature in message handling",
+      "UR SIGS QSB"
+    ],
+    [
+      "SK",
+      "See [SK]; Silent Key in a biographical context",
+      "End the contact; a different meaning in a club notice"
+    ],
+    [
+      "SKED",
+      "An arranged contact",
+      "SKED AT 1400 UTC"
+    ],
+    [
+      "SN",
+      "Soon",
+      "CU SN"
+    ],
+    [
+      "SNR",
+      "Signal-to-noise ratio",
+      "SNR IMPROVED"
+    ],
+    [
+      "SP",
+      "Short path, in propagation discussions",
+      "VIA SP"
+    ],
+    [
+      "SRI",
+      "Sorry",
+      "SRI NAME NIL"
+    ],
+    [
+      "SSB",
+      "Single sideband",
+      "ALSO WORK SSB"
+    ],
+    [
+      "STN",
+      "Station",
+      "STN CLG PSE AGN"
+    ],
+    [
+      "T",
+      "A cut zero in a numeric field",
+      "TT1 may mean 001"
+    ],
+    [
+      "TEMP",
+      "Temperature",
+      "TEMP PLUS 12 C"
+    ],
+    [
+      "TFC",
+      "Traffic; messages",
+      "NO TFC"
+    ],
+    [
+      "TKS / TNX",
+      "Thanks",
+      "TNX FER CALL"
+    ],
+    [
+      "TMW",
+      "Tomorrow",
+      "QRV TMW?"
+    ],
+    [
+      "TU",
+      "Thank you",
+      "TU 73"
+    ],
+    [
+      "TX / XMTR",
+      "Transmitter; transmit",
+      "TX PWR 5 W"
+    ],
+    [
+      "U",
+      "You",
+      "TNX U"
+    ],
+    [
+      "UFB",
+      "Very good; emphatic FB",
+      "UFB CPY"
+    ],
+    [
+      "UP",
+      "Up; higher, depending on context",
+      "UP 1 in a split-frequency call"
+    ],
+    [
+      "UR / YR",
+      "Your; you are",
+      "UR RST 559"
+    ],
+    [
+      "URS",
+      "Yours",
+      "ANT SIMILAR TO URS"
+    ],
+    [
+      "UTC / Z",
+      "Coordinated Universal Time",
+      "AT 1200 UTC"
+    ],
+    [
+      "VFO",
+      "Variable-frequency oscillator; a radio’s tuning channel",
+      "CHECK TX VFO"
+    ],
+    [
+      "VY",
+      "Very",
+      "VY FB"
+    ],
+    [
+      "W",
+      "Watts, when used as a unit",
+      "5 W"
+    ],
+    [
+      "WA",
+      "Word after",
+      "PSE AGN WA NAME"
+    ],
+    [
+      "WB",
+      "Word before",
+      "PSE AGN WB QTH"
+    ],
+    [
+      "WDS",
+      "Words",
+      "LAST WDS AGN"
+    ],
+    [
+      "WID",
+      "With",
+      "QSO WID U"
+    ],
+    [
+      "WKD",
+      "Worked; made contact",
+      "WKD U B4"
+    ],
+    [
+      "WKG",
+      "Working",
+      "WKG PORTABLE"
+    ],
+    [
+      "WL",
+      "Will",
+      "WL CALL TMW"
+    ],
+    [
+      "WPM",
+      "Words per minute",
+      "PSE QRS 10 WPM"
+    ],
+    [
+      "WUD",
+      "Would",
+      "WUD U QSY?"
+    ],
+    [
+      "WX",
+      "Weather",
+      "WX SUNNY"
+    ],
+    [
+      "XCVR",
+      "Transceiver",
+      "XCVR QRP"
+    ],
+    [
+      "XTAL",
+      "Crystal",
+      "XTAL CONTROLLED"
+    ],
+    [
+      "XYL",
+      "Traditional term for wife",
+      "Understand the term; a name is often more natural"
+    ],
+    [
+      "YL",
+      "Traditional address or description for a female operator",
+      "An operator term, not an age test"
+    ],
+    [
+      "73",
+      "Best regards",
+      "TNX QSO 73"
+    ],
+    [
+      "72",
+      "A friendly greeting used in some QRP circles",
+      "72 ES GL"
+    ],
+    [
+      "88",
+      "Love and kisses; a more personal greeting",
+      "Use when appropriate to the relationship"
+    ]
+  ],
+  "q_signals": [
+    [
+      "QRA",
+      "What is the name of your station?",
+      "The station name is ...",
+      "For an operator’s personal name, NAME is usually clearer."
+    ],
+    [
+      "QRB",
+      "How far apart are our stations?",
+      "Our approximate distance is ...",
+      "Give a unit, such as KM."
+    ],
+    [
+      "QRG",
+      "Will you tell me my exact frequency?",
+      "Your exact frequency is ...",
+      "QRG 14060 KHZ"
+    ],
+    [
+      "QRH",
+      "Does my frequency vary?",
+      "Your frequency varies.",
+      "A drift report; describe what you hear."
+    ],
+    [
+      "QRI",
+      "How is the tone of my transmission?",
+      "Tone: 1 good, 2 variable, 3 bad.",
+      "This formal scale is not T1-T9 in RST."
+    ],
+    [
+      "QRK",
+      "How intelligible is my signal?",
+      "Intelligibility is ... on a 1-5 scale.",
+      "Most casual contacts use RST instead."
+    ],
+    [
+      "QRL",
+      "Are you busy?",
+      "I am busy; please do not interfere.",
+      "QRL? is the usual check before occupying a frequency."
+    ],
+    [
+      "QRM",
+      "Is my transmission being interfered with?",
+      "Your transmission is being interfered with.",
+      "In ordinary ham use, SRI QRM usually describes interference at my receiver."
+    ],
+    [
+      "QRN",
+      "Are you troubled by static?",
+      "I am troubled by static.",
+      "Commonly used for atmospheric noise; describe local electrical noise more specifically."
+    ],
+    [
+      "QRO",
+      "Shall I increase transmitter power?",
+      "Increase transmitter power.",
+      "HR QRO is a separate conversational use meaning higher-power operation."
+    ],
+    [
+      "QRP",
+      "Shall I decrease transmitter power?",
+      "Decrease transmitter power.",
+      "HR QRP means low-power operation; give watts when the value matters."
+    ],
+    [
+      "QRQ",
+      "Shall I send faster?",
+      "Send faster.",
+      "PSE QRQ"
+    ],
+    [
+      "QRS",
+      "Shall I send more slowly?",
+      "Send more slowly.",
+      "PSE QRS 10 WPM"
+    ],
+    [
+      "QRT",
+      "Shall I stop sending?",
+      "Stop sending.",
+      "QRT NW is commonly used to say I am closing down now."
+    ],
+    [
+      "QRU",
+      "Have you anything for me?",
+      "I have nothing for you.",
+      "Without the question mark, this is a negative answer."
+    ],
+    [
+      "QRV",
+      "Are you ready?",
+      "I am ready.",
+      "QRV AT 1500 UTC"
+    ],
+    [
+      "QRW",
+      "Shall I tell another station you are calling?",
+      "Please tell that station I am calling.",
+      "Name the station and frequency as needed."
+    ],
+    [
+      "QRX",
+      "When will you call again?",
+      "I will call again at the stated time and frequency.",
+      "QRX 1 MIN is commonly used as a request to wait."
+    ],
+    [
+      "QRY",
+      "What is my turn?",
+      "Your turn is number ...",
+      "Relates to a communication queue; uncommon in a casual contact."
+    ],
+    [
+      "QRZ",
+      "Who is calling me?",
+      "You are being called by ...",
+      "Use after a call you need to identify; not as a clear-frequency check."
+    ],
+    [
+      "QSA",
+      "What is the strength of my signal?",
+      "Strength is ... on the formal 1-5 scale.",
+      "Not the S1-S9 scale in RST."
+    ],
+    [
+      "QSB",
+      "Are my signals fading?",
+      "Your signals are fading.",
+      "UR SIGS QSB"
+    ],
+    [
+      "QSD",
+      "Are my signals mutilated?",
+      "Your signals are mutilated.",
+      "In CW conversation it often refers to defective keying; ask tactfully."
+    ],
+    [
+      "QSK",
+      "Can you hear between your signals, and may I break in?",
+      "I can hear between my signals; you may break in.",
+      "Full break-in depends on the station’s capabilities and settings."
+    ],
+    [
+      "QSL",
+      "Can you acknowledge receipt?",
+      "I acknowledge receipt.",
+      "A spoken or keyed QSL does not itself create an electronic award confirmation."
+    ],
+    [
+      "QSN",
+      "Did you hear me or the named station on that frequency?",
+      "I heard the specified station there.",
+      "HRD U ON 20M is a plain alternative."
+    ],
+    [
+      "QSO",
+      "Can you communicate with the named station?",
+      "I can communicate with that station.",
+      "As a noun, QSO simply means a radio contact."
+    ],
+    [
+      "QSP",
+      "Will you relay a message?",
+      "I will relay it.",
+      "Identify the recipient and the message."
+    ],
+    [
+      "QSU",
+      "Shall I send or reply on the stated frequency?",
+      "Send or reply on that frequency.",
+      "QSY is more familiar for an ordinary change of frequency."
+    ],
+    [
+      "QSV",
+      "Shall I send a series of Vs?",
+      "Send a series of Vs.",
+      "A test request; avoid creating interference."
+    ],
+    [
+      "QSX",
+      "Will you listen to the named station on that frequency?",
+      "I am listening to that station on that frequency.",
+      "QSX followed by a frequency commonly announces where a station is listening."
+    ],
+    [
+      "QSY",
+      "Shall I change transmission to another frequency?",
+      "Change transmission to another frequency.",
+      "PSE QSY 14060; first make sure the new spot is usable."
+    ],
+    [
+      "QSZ",
+      "Shall I send each word or group more than once?",
+      "Send each word or group the specified number of times.",
+      "PSE QSZ 2"
+    ],
+    [
+      "QTC",
+      "How many messages have you to send?",
+      "I have ... messages.",
+      "Some contests have a special QTC exchange; learn its rules first."
+    ],
+    [
+      "QTH",
+      "What is your position?",
+      "My position or location is ...",
+      "QTH RIVERDALE is normal conversational ham usage."
+    ],
+    [
+      "QTR",
+      "What is the correct time?",
+      "The correct time is ...",
+      "State UTC unless another basis is explicit."
+    ],
+    [
+      "QTU",
+      "What are your operating hours?",
+      "I operate between the stated hours.",
+      "An agreed operating schedule."
+    ],
+    [
+      "QUA",
+      "Have you news of the named station?",
+      "I have news of that station.",
+      "A less common code; full words may be easier."
+    ]
+  ],
+  "phrases": [
+    [
+      "Finding room and calling",
+      [
+        [
+          "QRL?",
+          "Is this frequency in use?"
+        ],
+        [
+          "CQ CQ DE YOURCALL YOURCALL K",
+          "A short general call"
+        ],
+        [
+          "CQ QRS DE YOURCALL K",
+          "A call inviting a slower contact"
+        ],
+        [
+          "CQ DX DE YOURCALL K",
+          "A call seeking distant stations"
+        ],
+        [
+          "THEIRCALL DE YOURCALL K",
+          "An addressed call or a clear answer to CQ"
+        ],
+        [
+          "YOURCALL YOURCALL",
+          "A brief answer when that fits the operating style"
+        ],
+        [
+          "QRZ?",
+          "Who called me?"
+        ],
+        [
+          "STN CLG AGN PSE",
+          "Calling station, please repeat"
+        ],
+        [
+          "PSE SEND FULL CALL",
+          "Please give your complete call sign"
+        ],
+        [
+          "UR CALL AGN PSE",
+          "Please repeat your call sign"
+        ]
+      ]
+    ],
+    [
+      "Opening the contact",
+      [
+        [
+          "R TNX FER CALL",
+          "Received; thanks for calling"
+        ],
+        [
+          "GM ALEX",
+          "Good morning, Alex"
+        ],
+        [
+          "GA SAM",
+          "Good afternoon, Sam"
+        ],
+        [
+          "GE DR OM",
+          "Good evening; a traditional friendly greeting"
+        ],
+        [
+          "UR RST 559 559",
+          "Your report is 559"
+        ],
+        [
+          "NAME SAM SAM",
+          "My name is Sam"
+        ],
+        [
+          "OP ALEX",
+          "The operator is Alex"
+        ],
+        [
+          "QTH RIVERDALE",
+          "My location is Riverdale"
+        ],
+        [
+          "HW CPY? K",
+          "How do you copy? Your turn"
+        ],
+        [
+          "R ALL OK",
+          "Everything was received"
+        ]
+      ]
+    ],
+    [
+      "Asking for a repeat",
+      [
+        [
+          "UR NAME AGN PSE",
+          "Please repeat your name"
+        ],
+        [
+          "MY RST AGN PSE",
+          "Repeat the report you gave me"
+        ],
+        [
+          "QTH AGN PSE",
+          "Repeat your location"
+        ],
+        [
+          "NR AGN PSE",
+          "Repeat the number"
+        ],
+        [
+          "LAST WORD AGN PSE",
+          "Repeat the last word"
+        ],
+        [
+          "PSE AGN WA NAME",
+          "Repeat the word after NAME"
+        ],
+        [
+          "PSE AGN AA RST",
+          "Repeat everything after RST"
+        ],
+        [
+          "PSE SEND NAME TWICE",
+          "Send the name twice"
+        ],
+        [
+          "RST CPY NAME NIL",
+          "I copied the report, but not the name"
+        ],
+        [
+          "SRI QUESTION AGN PSE",
+          "Sorry, please repeat the question"
+        ]
+      ]
+    ],
+    [
+      "Slowing down and waiting",
+      [
+        [
+          "PSE QRS",
+          "Please send more slowly"
+        ],
+        [
+          "PSE QRS 10 WPM",
+          "Please send about 10 words per minute"
+        ],
+        [
+          "PSE MORE SPACE BETWEEN WORDS",
+          "Please leave longer word gaps"
+        ],
+        [
+          "I AM NEW TO CW",
+          "I am a newcomer to Morse operation"
+        ],
+        [
+          "THIS IS MY FIRST CW QSO",
+          "This is my first CW contact"
+        ],
+        [
+          "MNI TNX FER UR PATIENCE",
+          "Thanks very much for your patience"
+        ],
+        [
+          "[AS]",
+          "Please wait"
+        ],
+        [
+          "QRX 1 MIN",
+          "Wait one minute, in common amateur usage"
+        ],
+        [
+          "PSE START AGAIN FM NAME",
+          "Start again from the name"
+        ],
+        [
+          "ONLY LAST TWO LETTERS CPY",
+          "I copied only the final two letters"
+        ]
+      ]
+    ],
+    [
+      "Signal and station",
+      [
+        [
+          "SRI QRM",
+          "Interference is making reception difficult"
+        ],
+        [
+          "HV QRN",
+          "I have atmospheric noise"
+        ],
+        [
+          "LOCAL RFI HR",
+          "I have local radio-frequency interference"
+        ],
+        [
+          "UR SIGS QSB",
+          "Your signals are fading"
+        ],
+        [
+          "UR SIGS FB",
+          "Your signals are good"
+        ],
+        [
+          "NW BTR CPY",
+          "Reception is better now"
+        ],
+        [
+          "HR PWR 5 W",
+          "I am using five watts"
+        ],
+        [
+          "ANT DIPOLE UP 8 M",
+          "A dipole eight meters high"
+        ],
+        [
+          "ANT VERTICAL",
+          "A vertical antenna"
+        ],
+        [
+          "I AM USING A STRAIGHT KEY",
+          "I am sending with a straight key"
+        ],
+        [
+          "USING PADDLE ES KEYER",
+          "I am using a paddle and electronic keyer"
+        ],
+        [
+          "RIG HOMEBREW",
+          "The radio is home-built"
+        ],
+        [
+          "WHAT ANT ARE U USING?",
+          "Ask about the other antenna"
+        ],
+        [
+          "PSE CHECK KEYING",
+          "A tactful request to check the sending"
+        ],
+        [
+          "USING A DECODER",
+          "I am using a decoder"
+        ]
+      ]
+    ],
+    [
+      "A little conversation",
+      [
+        [
+          "WX SUNNY",
+          "Sunny weather here"
+        ],
+        [
+          "WX CLOUDY",
+          "Cloudy weather here"
+        ],
+        [
+          "WX RAIN",
+          "It is raining here"
+        ],
+        [
+          "TEMP PLUS 12 C",
+          "Temperature is plus twelve Celsius"
+        ],
+        [
+          "I BUILT MY ANT",
+          "I built my antenna"
+        ],
+        [
+          "I ENJOY PORTABLE OPERATION",
+          "I enjoy operating away from home"
+        ],
+        [
+          "HOW LONG HAVE U BEEN ON CW?",
+          "Ask about experience"
+        ],
+        [
+          "FIRST TIME ON THIS BAND",
+          "My first time on this band"
+        ],
+        [
+          "QSO B4 TNX",
+          "We have worked before; thanks"
+        ],
+        [
+          "GLD TO MEET U",
+          "Glad to meet you"
+        ]
+      ]
+    ],
+    [
+      "Moving and making plans",
+      [
+        [
+          "PSE QSY 14060",
+          "Please move to 14060 kHz, if usable and permitted"
+        ],
+        [
+          "QRV TMW AT 1500 UTC?",
+          "Will you be available tomorrow at 15:00 UTC?"
+        ],
+        [
+          "SKED AT 1500 UTC",
+          "An arrangement to meet at 15:00 UTC"
+        ],
+        [
+          "PSE CONFIRM TIME IN UTC",
+          "Please confirm the UTC time"
+        ],
+        [
+          "I WILL CALL U AGAIN",
+          "I will call you again"
+        ],
+        [
+          "PSE WAIT I CHECK MY ANT",
+          "Please wait while I check my antenna"
+        ],
+        [
+          "UP 1",
+          "Listening one kHz above, in a split call"
+        ],
+        [
+          "PSE CONFIRM FREQ",
+          "Please confirm the frequency"
+        ]
+      ]
+    ],
+    [
+      "Closing and confirmations",
+      [
+        [
+          "TNX FER QSO",
+          "Thanks for the contact"
+        ],
+        [
+          "TU 73",
+          "Thank you; best regards"
+        ],
+        [
+          "HPE CUAGN",
+          "Hope to see you again"
+        ],
+        [
+          "73 ES GL",
+          "Best regards and good luck"
+        ],
+        [
+          "GN ES GUD DX",
+          "Good night and good distant contacts"
+        ],
+        [
+          "MUST QRT NW",
+          "I need to close down now"
+        ],
+        [
+          "SRI BATTERY LOW MUST QRT",
+          "Battery is low; I need to stop"
+        ],
+        [
+          "TNX QSO 73 THEIRCALL DE YOURCALL [SK]",
+          "A complete closing"
+        ],
+        [
+          "PSE QSL VIA BURO",
+          "Please send a QSL through the bureau"
+        ],
+        [
+          "QSL INFO ON MY PAGE",
+          "My confirmation instructions are on my page"
+        ]
+      ]
+    ],
+    [
+      "Events and brief exchanges",
+      [
+        [
+          "CQ TEST DE YOURCALL K",
+          "A contest call"
+        ],
+        [
+          "5NN 007",
+          "A report and serial number, only when the rules call for them"
+        ],
+        [
+          "NR 007 007",
+          "A repeated number"
+        ],
+        [
+          "TU YOURCALL TEST",
+          "Thanks; continuing the contest"
+        ],
+        [
+          "REF AGN PSE",
+          "Repeat the activity reference"
+        ],
+        [
+          "PSE SEND UR CLUB NR",
+          "Please send your club membership number"
+        ],
+        [
+          "I AM NOT A MEMBER",
+          "I do not have a club membership number"
+        ],
+        [
+          "TNX FER FIRST QSO",
+          "Thanks for a first contact"
+        ]
+      ]
+    ]
+  ],
+  "words": [
+    "NAME",
+    "CALL",
+    "STATION",
+    "OPERATOR",
+    "CITY",
+    "COUNTRY",
+    "HOME",
+    "HERE",
+    "NEAR",
+    "FROM",
+    "HELLO",
+    "MORNING",
+    "AFTERNOON",
+    "EVENING",
+    "NIGHT",
+    "THANKS",
+    "PLEASE",
+    "SORRY",
+    "GOOD",
+    "LUCK",
+    "AGAIN",
+    "REPEAT",
+    "SLOW",
+    "FASTER",
+    "WAIT",
+    "READY",
+    "HEAR",
+    "COPY",
+    "READ",
+    "SEND",
+    "RECEIVE",
+    "SIGNAL",
+    "REPORT",
+    "STRONG",
+    "WEAK",
+    "CLEAR",
+    "NOISE",
+    "STATIC",
+    "FADING",
+    "FILTER",
+    "RADIO",
+    "KEY",
+    "PADDLE",
+    "ANTENNA",
+    "DIPOLE",
+    "VERTICAL",
+    "WIRE",
+    "POWER",
+    "WATTS",
+    "BATTERY",
+    "GROUND",
+    "FREQUENCY",
+    "BAND",
+    "TUNE",
+    "ABOVE",
+    "BELOW",
+    "UP",
+    "DOWN",
+    "CHANGE",
+    "LISTEN",
+    "CONTACT",
+    "FRIEND",
+    "FIRST",
+    "LAST",
+    "NEW",
+    "OLD",
+    "TODAY",
+    "TOMORROW",
+    "LATER",
+    "TIME",
+    "MINUTE",
+    "HOUR",
+    "DAY",
+    "WEEK",
+    "YEAR",
+    "SOON",
+    "WEATHER",
+    "SUNNY",
+    "CLOUDY",
+    "RAIN",
+    "SNOW",
+    "WIND",
+    "WARM",
+    "COLD",
+    "PLUS",
+    "MINUS",
+    "NORTH",
+    "SOUTH",
+    "EAST",
+    "WEST",
+    "PORTABLE",
+    "MADE",
+    "BUILD",
+    "PRACTICE",
+    "LEARN",
+    "ENJOY",
+    "BEGINNER",
+    "MEET",
+    "NEXT",
+    "REPLY"
+  ]
+}
