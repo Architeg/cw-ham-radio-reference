@@ -5,3 +5,7 @@
 ### Added
 
 - First English community edition.
+
+### Changed
+
+- Updated the title to “CW: A Practical Reference” and refreshed the branding and download links; the edition remains v1.0.0.

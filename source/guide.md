@@ -1,6 +1,6 @@
 ---
-title: "CW: A Practical Community Guide"
-subtitle: "Learn the language. Make the contact. Keep a reference beside your key."
+title: "CW: A Practical Reference"
+subtitle: "Codes, phrases, and operating procedures."
 author: "Valeriy Bagrintsev"
 date: "2026"
 lang: en
@@ -1635,9 +1635,9 @@ References checked for this edition: 29 October 2026. Online material can change
 
 ## Share it and improve it
 
-The original text, tables, examples, and cover artwork in **CW: A Practical Community Guide**, by **Valeriy Bagrintsev (2026)**, are released under **Creative Commons Attribution 4.0 International (CC BY 4.0)**. You may share and adapt that material, including commercially, with appropriate attribution, a link to the license, and an indication of changes. The full license controls: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+The original text, tables, examples, and cover artwork in **CW: A Practical Reference**, by **Valeriy Bagrintsev (2026)**, are released under **Creative Commons Attribution 4.0 International (CC BY 4.0)**. You may share and adapt that material, including commercially, with appropriate attribution, a link to the license, and an indication of changes. The full license controls: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-For example: “Based on CW: A Practical Community Guide by Valeriy Bagrintsev, 2026, CC BY 4.0. Edited and expanded.” Add the source link where you obtained it and the license link. Don't imply that the author endorses your changes. Third-party fonts and linked resources retain their separate terms.
+For example: “Based on CW: A Practical Reference by Valeriy Bagrintsev, 2026, CC BY 4.0. Edited and expanded.” Add the source link where you obtained it and the license link. Don't imply that the author endorses your changes. Third-party fonts and linked resources retain their separate terms.
 
 Corrections are welcome. A useful report includes the edition, chapter or page, the wording at issue, a proposed correction, and a reliable source where one is needed. A concrete example from practice can help distinguish a regional habit from a universal rule.
 

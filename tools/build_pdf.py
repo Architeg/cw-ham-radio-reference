@@ -84,8 +84,8 @@ class Invisible(Flowable):
  def draw(self):pass
 class BookDoc(BaseDocTemplate):
  def __init__(self,path):
-  super().__init__(str(path),pagesize=(MW,MH),leftMargin=0,rightMargin=0,topMargin=0,bottomMargin=0,title='CW: A Practical Community Guide',author='Valeriy Bagrintsev',allowSplitting=True,pageCompression=1)
-  self.blank_pages=set();self.open_pages=set();self.page_map={};self.entries=[];self.running='CW: A Practical Community Guide';self.art_pages={};self.layouts=[]
+  super().__init__(str(path),pagesize=(MW,MH),leftMargin=0,rightMargin=0,topMargin=0,bottomMargin=0,title='CW: A Practical Reference',author='Valeriy Bagrintsev',allowSplitting=True,pageCompression=1)
+  self.blank_pages=set();self.open_pages=set();self.page_map={};self.entries=[];self.running='CW: A Practical Reference';self.art_pages={};self.layouts=[]
   for name,left in [('Right',20),('Left',15)]:
    frame=Frame(BLEED+left*mm,BLEED+20*mm,IW,170*mm,id=name,leftPadding=0,rightPadding=0,topPadding=0,bottomPadding=0)
    self.addPageTemplates(PageTemplate(id=name,frames=[frame],onPage=self.start,onPageEnd=self.end,autoNextPageTemplate='Left' if name=='Right' else 'Right'))
@@ -109,7 +109,7 @@ class BookDoc(BaseDocTemplate):
   c.saveState();left=BLEED+(20 if p%2 else 15)*mm;right=left+IW
   if p not in d.open_pages:
    c.setFont('Sans',7.1);c.setFillColor(gray)
-   label='CW • A PRACTICAL COMMUNITY GUIDE' if p%2==0 else re.sub(r'^\d+\.\s*','',d.running).upper()
+   label='CW • A PRACTICAL REFERENCE' if p%2==0 else re.sub(r'^\d+\.\s*','',d.running).upper()
    while pdfmetrics.stringWidth(label,'Sans',7.1)>IW:label=label[:-2]+'…'
    c.drawString(left,BLEED+TH-13.1*mm,label)
   c.setFillColor(black);c.setFont('Sans',8.5)
@@ -163,12 +163,11 @@ def draw_art(c,kind):
  def line(y,text,font='Sans',size=10,color=cream):c.setFont(font,size);c.setFillColor(color);c.drawString(x,y,text)
  if kind=='front':
   line(TH-21*mm,'MORSE CODE • OPERATING • REFERENCE',size=8.2,color=muted)
-  line(TH-66*mm,'CW','SansBold',102,amber)
+  line(TH-66*mm,'CW:','SansBold',102,amber)
   c.setStrokeColor(amber);c.setLineWidth(1.2);c.line(x,TH-80*mm,right,TH-80*mm)
   line(TH-97*mm,'A Practical','SansBold',23)
-  line(TH-108*mm,'Community Guide','SansBold',23)
-  line(TH-127*mm,'A friendly start for newcomers.',size=10.5)
-  line(TH-135*mm,'A reference beside every key.',size=10.5)
+  line(TH-108*mm,'Reference','SansBold',23)
+  line(TH-127*mm,'Codes, phrases, and operating procedures.',size=10.5)
   # The diagram spells CW with normal character and element spacing.
   xx=x
   for char in ['-.-.','.--']:
@@ -179,12 +178,12 @@ def draw_art(c,kind):
   line(22*mm,f'English community edition {VERSION} • 2026',size=8.6,color=muted)
   line(13*mm,'FREE TO SHARE • CC BY 4.0',size=8,color=muted)
  else:
-  line(TH-26*mm,'A GOOD CONTACT STARTS WITH LISTENING.','SansBold',10.6,amber)
+  line(TH-26*mm,'Codes, phrases, and operating procedures.','SansBold',10.6,amber)
   ps=ParagraphStyle('back',fontName='Sans',fontSize=11,leading=16,textColor=cream)
   y=TH-41*mm
   for txt in ['Learn the rhythm, make a first contact, and keep useful words within reach. This guide is written for operators who enjoy a hand key and a notebook, those who use web tools, and everyone in between.','Inside: 139 abbreviation entries, 38 Q signals, 91 sample phrases, a worked contact, and a one-page desk card.','Share it with a club, print a copy for a friend, or help improve the next edition. Original material is licensed under Creative Commons Attribution 4.0 International.']:
    p=Paragraph(txt,ps);_,h=p.wrap(116*mm,300);p.drawOn(c,x,y-h);y-=h+10*mm
-  line(24*mm,'CW: A Practical Community Guide','SansBold',11)
+  line(24*mm,'CW: A Practical Reference','SansBold',11)
   line(15*mm,'Valeriy Bagrintsev • 2026 • CC BY 4.0',size=8.5,color=muted)
 
 class ArtPage(Flowable):
@@ -196,7 +195,7 @@ class ArtPage(Flowable):
 
 def make_story(pm,prev_entries):
  story=[ArtPage('front'),PageBreak()]
- story += [paragraph('CW: A Practical Community Guide','h2'),paragraph(f'Valeriy Bagrintsev<br/>English community edition {VERSION} • 2026','small'),Spacer(1,6*mm),paragraph('A practical introduction to amateur Morse operation, with a reference section for operators at any level. Use it offline with a hand key and a notebook, alongside a radio, or with optional digital tools.','body'),Spacer(1,5*mm),paragraph('Free to share and adapt','h2'),paragraph('Original material © 2026 Valeriy Bagrintsev. Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). Share and adapt with attribution, a license link, and a note of changes. Linked resources and bundled fonts keep their own terms.','small'),paragraph('<link href="https://creativecommons.org/licenses/by/4.0/">creativecommons.org/licenses/by/4.0/</link>','small'),Spacer(1,5*mm),paragraph('This is an independently prepared guide. National rules, band plans, equipment manuals, and event regulations govern your actual operation. Examples use placeholder call signs and invented data.','small'),paragraph('AI tools were used in drafting, research support, layout, and consistency checks. Community corrections are welcome; see chapter 23.','small'),PageBreak()]
+ story += [paragraph('CW: A Practical Reference','h2'),paragraph('Codes, phrases, and operating procedures.','small'),paragraph(f'Valeriy Bagrintsev<br/>English community edition {VERSION} • 2026','small'),Spacer(1,6*mm),paragraph('A practical introduction to amateur Morse operation, with a reference section for operators at any level. Use it offline with a hand key and a notebook, alongside a radio, or with optional digital tools.','body'),Spacer(1,5*mm),paragraph('Free to share and adapt','h2'),paragraph('Original material © 2026 Valeriy Bagrintsev. Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). Share and adapt with attribution, a license link, and a note of changes. Linked resources and bundled fonts keep their own terms.','small'),paragraph('<link href="https://creativecommons.org/licenses/by/4.0/">creativecommons.org/licenses/by/4.0/</link>','small'),Spacer(1,5*mm),paragraph('This is an independently prepared guide. National rules, band plans, equipment manuals, and event regulations govern your actual operation. Examples use placeholder call signs and invented data.','small'),paragraph('AI tools were used in drafting, research support, layout, and consistency checks. Community corrections are welcome; see chapter 23.','small'),PageBreak()]
  story += [paragraph('Contents','h1','contents',1,'Contents')]
  entrymap={a:p for a,t,p in prev_entries};data=[]
  for a,t in heads+[('reference-links','Reference links')]:
@@ -236,18 +235,18 @@ def make_story(pm,prev_entries):
 def main():
  pm={};entries=[];prev=None
  for attempt in range(1,7):
-  d=BookDoc(OUT/'cw-community-guide-raw.pdf');d.build(make_story(pm,entries))
+  d=BookDoc(OUT/'cw-practical-reference-raw.pdf');d.build(make_story(pm,entries))
   state=(d.page,tuple(d.entries),tuple(sorted(d.page_map.items())))
   print(f'Layout pass {attempt}: {d.page} pages',flush=True)
   if state==prev:break
   pm=d.page_map;entries=d.entries;prev=state
  else:raise RuntimeError('Pagination did not stabilize')
- reader=PdfReader(OUT/'cw-community-guide-raw.pdf');writer=PdfWriter();writer.clone_document_from_reader(reader)
+ reader=PdfReader(OUT/'cw-practical-reference-raw.pdf');writer=PdfWriter();writer.clone_document_from_reader(reader)
  for p in writer.pages:p.trimbox=RectangleObject([0,0,TW,TH]);p.cropbox=RectangleObject([0,0,TW,TH]);p.bleedbox=RectangleObject([0,0,TW,TH])
- writer.add_metadata({'/Title':'CW: A Practical Community Guide','/Author':'Valeriy Bagrintsev','/Subject':f'A worldwide introduction and desk reference for amateur Morse operation. English community edition {VERSION}, 2026.','/Keywords':'Morse code, CW, amateur radio, community guide, CC BY 4.0, A5','/Copyright':'Original material © 2026 Valeriy Bagrintsev, CC BY 4.0','/License':'https://creativecommons.org/licenses/by/4.0/'})
+ writer.add_metadata({'/Title':'CW: A Practical Reference','/Author':'Valeriy Bagrintsev','/Subject':f'Codes, phrases, and operating procedures. English community edition {VERSION}, 2026.','/Keywords':'Morse code, CW, amateur radio, practical reference, CC BY 4.0, A5','/Copyright':'Original material © 2026 Valeriy Bagrintsev, CC BY 4.0','/License':'https://creativecommons.org/licenses/by/4.0/'})
  writer._root_object[NameObject('/Lang')]=TextStringObject('en')
- target=BOOK/f'CW-Community-Guide-English-A5-2026-{VERSION}.pdf'
+ target=BOOK/f'CW-Practical-Reference-English-A5-2026-{VERSION}.pdf'
  with target.open('wb') as f:writer.write(f)
  info={'pages':len(reader.pages),'blank_pages':sorted(d.blank_pages),'art_pages':d.art_pages,'entries':d.entries,'anchors':d.page_map,'page_mm':[148,210],'inside_mm':20,'outside_mm':15,'version':VERSION,'language':'en'}
- (OUT/'layout.json').write_text(json.dumps(info,ensure_ascii=False,indent=2));(OUT/'cw-community-guide-raw.pdf').unlink();print(target)
+ (OUT/'layout.json').write_text(json.dumps(info,ensure_ascii=False,indent=2));(OUT/'cw-practical-reference-raw.pdf').unlink();print(target)
 if __name__=='__main__':main()
